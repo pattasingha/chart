@@ -85,3 +85,8 @@
   padding: 10px;
   min-width: 620px;
 }
+
+.mixChart {
+  width: 600px !important;
+  margin: 10px;
+}
