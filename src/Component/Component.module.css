@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
 
 .dropdownBox {
-  padding: 9px 16px 9px 15px;
+  padding: 5px 16px 5px 15px;
   background-color: #fcfdfd;
   border-style: solid;
   border-color: #d5d5d5;
@@ -82,7 +82,7 @@
 }
 
 .card {
-  padding: 10px;
+  padding: 20px;
   min-width: 620px;
 }
 

@@ -40,6 +40,10 @@ export default function MixChart() {
             formatter: function () {
               return 'Title'
             },
+            font: {
+              size: 14,
+              family: "'Sarala', sans-serif",
+            },
           },
         },
         {
@@ -72,6 +76,14 @@ export default function MixChart() {
       },
       hover: false,
       maintainAspectRatio: false,
+      layout: {
+        padding: {
+          left: 50,
+          right: 0,
+          top: 0,
+          bottom: 0,
+        },
+      },
       scales: {
         xAxes: [
           {
@@ -95,6 +107,10 @@ export default function MixChart() {
                 return ''
               },
               stepSize: 20,
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontSize: 12,
+              mirror: true,
+              padding: 50,
             },
           },
         ],
