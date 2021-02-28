@@ -23,6 +23,9 @@ export default function DoughnutChart() {
             '#129219',
           ],
           borderWidth: 3,
+          datalabels: {
+            display: false,
+          },
         },
       ],
     }
