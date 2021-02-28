@@ -9,7 +9,7 @@ import classes from './Component.module.css'
 
 export default function MixChartCard() {
   return (
-    <Card className={classes.card}>
+    <Card className={classes.card} style={{ borderRadius: '14px' }}>
       <Grid
         container
         direction="row"
