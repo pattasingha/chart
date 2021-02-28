@@ -13,10 +13,10 @@ function App() {
       justify="center"
       style={{ minHeight: '100vh' }}
     >
-      <Grid item xs={12}>
+      <Grid item xs={12} style={{ maxWidth: '640px' }}>
         <ChartCard />
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={12} style={{ maxWidth: '640px' }}>
         <MixChartCard />
       </Grid>
     </Grid>

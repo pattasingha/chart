@@ -14,7 +14,7 @@ const bubbleData = [
 const redBubbleData = bubbleData.map((item) => {
   const container = {}
   container.x = item.x
-  container.y = item.y + 12
+  container.y = item.y + 15
   container.r = 9.5
   return container
 })
