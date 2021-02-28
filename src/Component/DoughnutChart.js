@@ -30,6 +30,10 @@ export default function DoughnutChart() {
       ],
     }
     const options = {
+      animation: {
+        duration: 0,
+      },
+      responsiveAnimationDuration: 0,
       tooltips: {
         enabled: false,
       },

@@ -63,6 +63,10 @@ export default function MixChart() {
       ],
     }
     const options = {
+      animation: {
+        duration: 0,
+      },
+      responsiveAnimationDuration: 0,
       tooltips: {
         enabled: false,
       },
