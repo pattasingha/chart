@@ -14,7 +14,7 @@ const bubbleData = [
 const redBubbleData = bubbleData.map((item) => {
   const container = {}
   container.x = item.x
-  container.y = item.y + 10
+  container.y = item.y + 12
   container.r = 9.5
   return container
 })
@@ -72,13 +72,23 @@ export default function MixChart() {
         xAxes: [
           {
             display: false,
+            gridLines: {
+              display: false,
+            },
           },
         ],
         yAxes: [
           {
+            gridLines: {
+              drawBorder: false,
+              color: ['rgba(255, 0, 0, 0.0)'],
+            },
             ticks: {
               callback: function (value) {
-                return value + '%'
+                if (value <= 100) {
+                  return value + '%'
+                }
+                return ''
               },
               stepSize: 20,
             },
